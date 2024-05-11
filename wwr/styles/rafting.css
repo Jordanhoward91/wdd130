@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--primary-color: #7F948B;
+	--secondary-color: #798592;
+	--accent1-color: #7F82A2;
+	--accent2-color: #8B8DAA;
+
+	--heading-font: 'Poppins', static;
+	--paragraph-font: 'Raleway', serif;
+
+	--nav-background-color: #798592;
+	--nav-link-color: #8B8DAA;
+	--nav-hover-link-color: #4d0762;
+	--nav-hover-background-color: #1e0226;
+}
+
+
+body {
+	font-family: var(--paragraph-font);
+	max-width: 640px;
+	padding: 20px;
+}
+
+.header {
+	padding: 20px;
+	background-color: var(--accent1-color);
+}
+
+.header img {
+	width: 20%;
+}
+
+.hero {
+	position: relative; /* Set the position of the container to relative */
+  }
+  
+  .hero img {
+	width: 100%; /* Ensure the image fills the container */
+	display: block; /* Make sure the image behaves as a block element */
+	background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero h1 {
+	color: whitesmoke;
+	position:absolute;
+	top: 0%;
+	left: 27%;
+  }
+
+  .hero article {
+	position: absolute;
+	top: 20%;
+  }
+
+  .hero article img {
+	max-width: 28%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	float: right;
+  }
+
+  .hero article p {
+	position: relative;
+	color: whitesmoke;
+	padding-left: 10%;
+	font-size: small;
+	z-index: 1;
+  }
+  
+  /* Set the position of the h1 and article tags */
+  /* Align them vertically at the center */
+  /* Align them horizontally at the center */
+  /* Center them precisely */
+  /* Set text color */
+  /* Align text to the center */
+  /* Set the width to 80% of the container */
+  /* .hero article {
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	color: white; 
+	text-align: center; 
+	width: 80%; 
+  } */
+  
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--heading-font);
+	color: var(--primary-color);
+}
+
+header {
+	padding: 20px;
+	background-color: var(--accent1-color);
+}
+
+/* p {
+	padding: 25px;
+} */
