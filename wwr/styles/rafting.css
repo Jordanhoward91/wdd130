@@ -23,12 +23,20 @@ body {
 }
 
 .header {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
 	padding: 20px;
 	background-color: var(--accent1-color);
 }
 
 .header img {
-	width: 20%;
+	width: 60%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .hero {
@@ -68,35 +76,57 @@ body {
 	font-size: small;
 	z-index: 1;
   }
-  
-  /* Set the position of the h1 and article tags */
-  /* Align them vertically at the center */
-  /* Align them horizontally at the center */
-  /* Center them precisely */
-  /* Set text color */
-  /* Align text to the center */
-  /* Set the width to 80% of the container */
-  /* .hero article {
-	position: absolute; 
-	top: 50%; 
-	left: 50%; 
-	transform: translate(-50%, -50%); 
-	color: white; 
-	text-align: center; 
-	width: 80%; 
-  } */
-  
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--heading-font);
 	color: var(--primary-color);
+	display: grid;
+	justify-items: center;
 }
 
-header {
-	padding: 20px;
-	background-color: var(--accent1-color);
+  
+.adventure {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .adventure figure {
+	text-align: center;
+	margin: 0;
+  }
+  
+  .adventure img {
+	max-width: 100%;
+  }
+  
+  .adventure figcaption {
+	margin-top: 0.5rem;
+  }
+  
+  footer {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	grid-template-columns: 2fr 1fr;
+	margin-top: 1%;
+	margin-left: 20%;
+  }
+
+footer nav.sociallinks {
+	display: flex;
+	justify-content: flex-start;
+	width: 10%;
 }
 
-/* p {
-	padding: 25px;
-} */
+footer nav.sociallinks a {
+	margin-left: 10px;
+}
+
+footer nav.sociallinks a img {
+	width: 25px;
+	height: auto;
+}
+
