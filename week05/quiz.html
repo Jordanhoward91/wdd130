@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+	<main>
+		<h1>HTML & CSS Quiz</h1>
+		<form action="/submit-quiz" method="post">
+			<div class="question">
+				<label for="q1">1. What does HTML stand for?</label>
+				<input type="text" id="q1" name="q1" required>
+			</div>
+			
+			<div class="question">
+				<label for="q2">2. Explain the purpose of CSS in web development:</label>
+				<textarea id="q2" name="q2" required></textarea>
+			</div>
+			
+			<div class="question">
+				<label for="q3">3. Which HTML element is used to specify a footer for a document or section?</label>
+				<select id="q3" name="q3" required>
+					<option value="" selected disabled>Choose One ...</option>
+					<option value="footer">&lt;footer&gt;</option>
+					<option value="bottom">&lt;bottom&gt;</option>
+					<option value="section">&lt;section&gt;</option>
+				</select>
+			</div>
+			
+			<div class="question">
+				<label for="q4">4. How many heading tags are there in HTML?</label>
+				<input type="number" id="q4" name="q4" required>
+			</div>
+			
+			<button type="submit">Submit Quiz</button>
+		</form>
+	</main>
+</body>
+</html>
