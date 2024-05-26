@@ -182,10 +182,6 @@ footer .sociallinks a img {
     flex-direction: column;
 }
 
-.contact-form label {
-    margin-top: 1em;
-}
-
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
