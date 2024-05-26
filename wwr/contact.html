@@ -58,16 +58,16 @@
 				
 				<fieldset>
 					<legend>Purpose of Message:</legend>
-					<label>
-						<input type="radio" name="purpose" value="general" required>
+					<label for="purpose_general">
+						<input type="radio" id="purpose_general" name="purpose" value="general" required>
 						General Inquiry
 					</label>
-					<label>
-						<input type="radio" name="purpose" value="reservation">
+					<label for="purpose_reservation">
+						<input type="radio" id="purpose_reservation" name="purpose" value="reservation">
 						Reservation Question
 					</label>
-					<label>
-						<input type="radio" name="purpose" value="suggestion">
+					<label for="purpose_suggestion">
+						<input type="radio" id="purpose_suggestion" name="purpose" value="suggestion">
 						Website Suggestion
 					</label>
 				</fieldset>
@@ -75,8 +75,8 @@
 				<label for="message">Message:</label>
 				<textarea id="message" name="message" rows="4" required></textarea>
 				
-				<label>
-					<input type="checkbox" name="subscribe" value="yes">
+				<label for="subscribe">
+					<input type="checkbox" id="subscribe" name="subscribe" value="yes">
 					Please subscribe me to the monthly newsletter
 				</label>
 				
