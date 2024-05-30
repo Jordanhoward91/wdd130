@@ -210,3 +210,70 @@ footer .sociallinks img {
     width: 30px;
     margin: 0 0.5em;
 }
+
+/* New Styles for Trips Page */
+
+/* Call to Action Styles */
+.call-to-action {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.call-to-action .cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* Trip Descriptions Section Styles */
+.trip-descriptions {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.trip {
+    flex: 1 1 calc(33% - 2rem);
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.trip img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.trip h3 {
+    color: var(--primary-color);
+    margin-top: 1rem;
+}
+
+/* Trip Table Section Styles */
+.trip-table {
+    padding: 2rem;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: #f4f4f4;
+}
