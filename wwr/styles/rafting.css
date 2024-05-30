@@ -49,7 +49,64 @@ nav a {
     text-decoration: none;
 }
 
-/* Call to Action Section Styles */
+/* Hero Section */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero h1 {
+    color: whitesmoke;
+    position: absolute;
+    top: 0;
+    left: 27%;
+}
+
+/* Newsletter Signup Section */
+.newsletter-signup {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.newsletter-signup h2 {
+    margin-bottom: 1rem;
+}
+
+.newsletter-signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-signup label {
+    margin-top: 1rem;
+}
+
+.newsletter-signup input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter-signup button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Call to Action Section */
 .call-to-action {
     background-color: #f4f4f4;
     padding: 2rem;
@@ -66,63 +123,30 @@ nav a {
     margin-top: 1rem;
 }
 
-/* Trip Descriptions Section Styles */
-.trip-descriptions {
-    padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
+/* Grid Layout Section */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
-    justify-content: space-around;
+    padding: 2rem 0;
 }
 
-.trip-descriptions h2 {
-    width: 100%;
+.grid-item {
     text-align: center;
-    margin-bottom: 2rem;
-}
-
-.trip {
-    flex: 1 1 calc(33% - 2rem);
-    background-color: #f9f9f9;
     padding: 1rem;
+    background-color: #f9f9f9;
     border-radius: 5px;
-    text-align: center;
 }
 
-.trip img {
+.grid-item img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
-.trip h3 {
+.grid-item h3 {
     color: var(--primary-color);
     margin-top: 1rem;
-}
-
-/* Trip Table Section Styles */
-.trip-table {
-    padding: 2rem;
-}
-
-.trip-table h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.trip-table table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.trip-table th, .trip-table td {
-    border: 1px solid #ddd;
-    padding: 0.5rem;
-    text-align: left;
-}
-
-.trip-table th {
-    background-color: #f4f4f4;
 }
 
 /* Footer Styles */
